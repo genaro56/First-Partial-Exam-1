@@ -5,8 +5,8 @@ window.onload = function() {
         console.log(inputNumber)
 
         const getNumber = (i) => {
-            if(i % 5 == 0) return 'buzz' 
-            if(i % 3 == 0) {
+            if(i % 5 === 0) return 'buzz' 
+            else if(i % 3 === 0) {
                 return 'fizz' 
             }
 
