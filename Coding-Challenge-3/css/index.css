@@ -82,3 +82,11 @@ label, h3{
   .buzz, .fizzbuzz {
     background-color: #D5F5E3;
   }
+  #formSquare {
+      
+  }
+  .square {
+      border: #12bf88 solid 2px;
+      width: 100px;
+      height: 100px;
+  }
