@@ -15,7 +15,7 @@ window.onload = function() {
         for(let i = 0; i < inputNumber; i++) {
             const html = `
                 <div class="square">
-                 <label>${getNumber(i)}</label>
+                 <label>${getNumber(i+1)}</label>
                 </div>
                 `
             document.getElementById('formSquare').insertAdjacentHTML('afterend', html)
